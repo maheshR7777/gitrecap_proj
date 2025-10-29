@@ -12,3 +12,4 @@ name: "{{ new_user }}"
 shell: "{{ user_shell }}"
 state: present
 create_home: yes
+hlo everyone jenkies
