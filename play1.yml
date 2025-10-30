@@ -1,15 +1,1 @@
-name: Create a new user and set up home directory
-hosts: all
-become: yes
-vars:
-new_user: johndoe
-user_shell: /bin/bash
-tasks:
-
-name: Ensure the user exists
-user:
-name: "{{ new_user }}"
-shell: "{{ user_shell }}"
-state: present
-create_home: yes
-hlo everyone jenkies
+hello everyone good morning one and all  gather here today our topic is git (global information tracker) it is version controler
